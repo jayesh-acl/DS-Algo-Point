@@ -10,7 +10,7 @@ class Anagrams
         
         Scanner sc = new Scanner(System.in);
 
-        // Taking input from the user
+        // Taking input from the usersdsdsd
         String s1 = sc.nextLine();
         String s2 = sc.nextLine();
 
