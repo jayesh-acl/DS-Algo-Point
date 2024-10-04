@@ -56,7 +56,7 @@ class doublyLinkedList:
 			curr = self.head
 			while curr.next != None:
 				curr = curr.next
-			print("Removed the last node : ", curr.data, "\n")
+			# print("Removed the last node : ", curr.data, "\n")
 			curr = curr.prev
 			curr.next = None
 
@@ -101,7 +101,7 @@ class doublyLinkedList:
 			while curr != None:
 				print(curr.data, end = " ")
 				curr = curr.next
-		print()
+		# print()
 
 	def displayBackward(self):
 		if(self.head == None):
@@ -114,7 +114,7 @@ class doublyLinkedList:
 			while curr != None:
 				print(curr.data, end = " ")
 				curr = curr.prev
-			print()
+			# print()
 
 DLL = doublyLinkedList()
 while True:
